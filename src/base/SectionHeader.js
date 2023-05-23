@@ -14,6 +14,9 @@ export default SectionHeader;
 const styles = {
   SectionHeader: css`
     font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
   `,
   black: css`
     color: #000;
