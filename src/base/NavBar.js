@@ -20,9 +20,11 @@ const styles = {
     position: relative;
   `,
   logo: css`
+    z-index: 999;
     position: absolute;
-    left: 250px;
+    top: -5px;
+    left: 150px;
     height: 50px;
-    box-shadow: 0px -28px 3px 2px #ababab;
+    box-shadow: 0px -23px 3px 2px #ababab;
   `,
 };
