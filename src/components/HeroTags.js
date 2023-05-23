@@ -14,7 +14,7 @@ const HeroTags = () => {
           <MdDevicesOther size={65} />
         </span>
       </div>
-      <VerticalRule length="56px" thickness="2px" color="#fff" />
+      <VerticalRule length="56px" thickness="3px" color="#fff" />
       <div className="tagItem">
         <div css={styles.multiLine}>
           <span>Technologies: </span>
@@ -24,7 +24,7 @@ const HeroTags = () => {
           <FaWordpress size={65} />
         </span>
       </div>
-      <VerticalRule length="56px" thickness="2px" color="#fff" />
+      <VerticalRule length="56px" thickness="3px" color="#fff" />
       <div className="tagItem">
         <div css={styles.multiLine}>
           <span>Industry: </span>
@@ -41,12 +41,13 @@ const HeroTags = () => {
 export default HeroTags;
 const styles = {
   HeroTags: css`
-    width: 60%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 24px;
     gap: 0 25px;
     .tagItem {
       display: flex;
