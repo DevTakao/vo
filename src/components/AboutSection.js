@@ -4,6 +4,7 @@ import SectionHeader from "../base/SectionHeader";
 import TabletImage from "assets/Tablet.png";
 import HorizontalRule from "../base/HorizontalRule";
 import GradientButton from "../base/GradientButton";
+import CirclesDecoration from "./CirclesDecoration";
 
 const AboutSection = () => {
   return (
@@ -11,7 +12,7 @@ const AboutSection = () => {
       <div css={styles.textSide}>
         <SectionHeader blackPrefix="ABOUT" blueSuffix="TRIPPRO" />
         <HorizontalRule length="152px" thickness="3px" color="#2DC4EA" />
-        <p css={styles.sectionBody}>
+        <p css={styles.textBody}>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
@@ -26,6 +27,9 @@ const AboutSection = () => {
         </GradientButton>
       </div>
       <div css={styles.imageSide}>
+        <div css={styles.circles}>
+          <CirclesDecoration rotation="120" />
+        </div>
         <img css={styles.image} src={TabletImage} alt="tablet" />
       </div>
     </div>
@@ -35,20 +39,34 @@ const AboutSection = () => {
 export default AboutSection;
 const styles = {
   AboutSection: css`
-    width: 75%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 87px;
     display: flex;
-    gap: 161px;
+    gap: 200px;
     align-items: center;
     justify-content: space-between;
   `,
-  sectionBody: css`
+  textSide: css`
+    width: 50%;
+  `,
+  imageSide: css`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 85px;
+  `,
+  textBody: css`
     font-size: 18px;
     line-height: 28px;
   `,
   image: css`
     width: 368px;
+  `,
+  circles: css`
+    position: absolute;
+    z-index: -1;
   `,
 };
