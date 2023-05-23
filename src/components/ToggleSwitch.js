@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import "react-toggle/style.css";
 import { ImMobile2 } from "react-icons/im";
 import { HiDesktopComputer } from "react-icons/hi";
 
