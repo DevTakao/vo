@@ -1,13 +1,14 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
+import { prefixWithZeroes } from "../utils/strings";
 
-const ChallengeItem = ({ idNumber, text, active = false }) => {
+const ChallengeItem = ({ idNumber, text }) => {
   return (
-    <div css={styles.ChallengeItem(active)}>
-      <div css={styles.idNumber(active)} className="textContent">
-        {"0" + idNumber}
+    <div css={styles.ChallengeItem}>
+      <div css={styles.idNumber} className="textContent">
+        {prefixWithZeroes(idNumber, 2)}
       </div>
-      <div css={styles.text(active)} className="textContent">
+      <div css={styles.text} className="textContent">
         {text}
       </div>
     </div>
@@ -16,7 +17,7 @@ const ChallengeItem = ({ idNumber, text, active = false }) => {
 
 export default ChallengeItem;
 const styles = {
-  ChallengeItem: (active) => css`
+  ChallengeItem: css`
     display: flex;
     box-shadow: 0px 3px 10px #0000004d;
     padding: 12px 22px;
@@ -33,12 +34,12 @@ const styles = {
       }
     }
   `,
-  idNumber: (active) => css`
+  idNumber: css`
     color: #2dc4ea;
     font-size: 40px;
     font-weight: bold;
   `,
-  text: (active) => css`
+  text: css`
     font-size: 18px;
   `,
 };

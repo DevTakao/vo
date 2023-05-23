@@ -3,6 +3,12 @@ import { css } from "@emotion/react";
 import SectionHeader from "../base/SectionHeader";
 import CubeImage from "assets/cube.png";
 import ChallengeList from "./ChallengeList";
+import withAPI from "../hoc/withAPI";
+
+const ChallengeListWithAPI = withAPI(
+  ChallengeList,
+  "https://jsonplaceholder.typicode.com/posts?_limit=5"
+);
 
 const ChallengesSection = () => {
   return (
@@ -13,7 +19,7 @@ const ChallengesSection = () => {
         </div>
         <div css={styles.contentSide}>
           <SectionHeader blackPrefix="OUR" blueSuffix="CHALLENGES" />
-          <ChallengeList />
+          <ChallengeListWithAPI />
         </div>
       </div>
     </div>

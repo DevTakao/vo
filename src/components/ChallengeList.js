@@ -4,22 +4,10 @@ import ChallengeItem from "./ChallengeItem";
 import GradientButton from "../base/GradientButton";
 
 const ChallengeList = ({ data }) => {
-  const items = [
-    "Hi",
-    "How are you",
-    "I'm fine",
-    "Thank you",
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut",
-  ];
   return (
     <div css={styles.ChallengeList}>
-      {items.map((item, index) => (
-        <ChallengeItem
-          key={index}
-          idNumber={index}
-          text={item}
-          active={index === 0}
-        />
+      {data?.map((item) => (
+        <ChallengeItem key={item.id} idNumber={item.id} text={item.body} />
       ))}
       <GradientButton>VIEW MORE</GradientButton>
     </div>
