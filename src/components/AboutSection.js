@@ -38,6 +38,7 @@ const styles = {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 87px;
     display: flex;
     gap: 161px;
     align-items: center;
