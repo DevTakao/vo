@@ -14,9 +14,9 @@ const CirclesDecoration = ({ rotation, ...props }) => {
         cy="267"
         r="259"
         stroke="#EA1A25"
-        stroke-width="5"
+        strokeWidth="5"
         fill="transparent"
-        stroke-dasharray="130 65"
+        strokeDasharray="130 65"
         css={styles.rotating(17)}
       />
       <circle
@@ -24,9 +24,9 @@ const CirclesDecoration = ({ rotation, ...props }) => {
         cy="267"
         r="232"
         stroke="#EA1A25"
-        stroke-width="5"
+        strokeWidth="5"
         fill="transparent"
-        stroke-dasharray="140 190"
+        strokeDasharray="140 190"
         css={styles.rotating(14)}
       />
       <circle
@@ -34,9 +34,9 @@ const CirclesDecoration = ({ rotation, ...props }) => {
         cy="267"
         r="205"
         stroke="#EA1A25"
-        stroke-width="5"
+        strokeWidth="5"
         fill="transparent"
-        stroke-dasharray="200 130"
+        strokeDasharray="200 130"
         css={styles.rotating(21)}
       />
     </svg>
