@@ -109,6 +109,10 @@ const styles = {
       height: 100%;
       background: #fff;
       z-index: -1;
+
+      @media (max-width: 1460px) {
+        background: transparent;
+      }
     }
   `,
   monitorOuter: css`
