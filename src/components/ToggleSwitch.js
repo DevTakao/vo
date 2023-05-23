@@ -74,7 +74,7 @@ const styles = {
       height: 41px;
       background-color: #fff;
       transform: translateX(0px);
-      transition: transform 0.2s ease;
+      transition: transform 0.5s ease;
       border-radius: 50%;
     }
 

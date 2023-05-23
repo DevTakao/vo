@@ -99,7 +99,7 @@ const styles = {
     gap: ${isLongBg ? "20px" : "0"};
     justify-content: flex-end;
     transform: ${show ? "translateX(0%)" : "translateX(-100%)"};
-    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease;
     ::after {
       content: "";
       position: absolute;
