@@ -8,7 +8,7 @@ const NavBarContact = () => {
 export default NavBarContact;
 const styles = {
   NavBarContact: css`
-    height: 25px;
+    height: 40px;
     background-color: #eee;
   `,
 };

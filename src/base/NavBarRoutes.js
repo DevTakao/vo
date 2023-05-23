@@ -8,7 +8,7 @@ const NavBarRoutes = () => {
 export default NavBarRoutes;
 const styles = {
   NavBarRoutes: css`
-    height: 25px;
+    height: 40px;
     background-color: #fff;
     box-shadow: -1px 0px 3px 1px #ababab;
   `,

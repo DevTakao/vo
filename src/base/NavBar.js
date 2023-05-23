@@ -22,9 +22,9 @@ const styles = {
   logo: css`
     z-index: 999;
     position: absolute;
-    top: -5px;
+    top: 0px;
     left: 150px;
-    height: 50px;
-    box-shadow: 0px -23px 3px 2px #ababab;
+    height: 65px;
+    box-shadow: 0px -28px 3px 2px #ababab;
   `,
 };
