@@ -5,6 +5,7 @@ import CubeImage from "assets/cube.png";
 import ChallengeList from "./ChallengeList";
 import withAPI from "../hoc/withAPI";
 
+// API Binded Here
 const ChallengeListWithAPI = withAPI(
   ChallengeList,
   "https://jsonplaceholder.typicode.com/posts?_limit=5"

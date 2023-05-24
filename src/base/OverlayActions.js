@@ -54,7 +54,7 @@ const styles = {
   `,
   scrollTop: css`
     cursor: pointer;
-    background-color: #555;
+    background-color: #222;
     display: inline-flex;
     align-items: center;
     justify-content: center;

@@ -12,6 +12,7 @@ export const services = [
   "Web Design",
   "Responsive Web Design",
   "CMS Web Design",
+  "Custom Web Design",
   "UI & UX Web Design",
   "360 Virtual Tour",
   "Ecommerce Development",

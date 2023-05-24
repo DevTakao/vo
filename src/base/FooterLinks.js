@@ -29,14 +29,14 @@ const FooterLinks = () => {
               </td>
               <td css={styles.listTd}>
                 <ul css={styles.list}>
-                  {services.slice(0, 6).map((service, i) => (
+                  {services.slice(0, 7).map((service, i) => (
                     <li key={i} css={styles.listItem}>
                       {service}
                     </li>
                   ))}
                 </ul>
                 <ul css={styles.list}>
-                  {services.slice(6).map((service, i) => (
+                  {services.slice(7).map((service, i) => (
                     <li key={i} css={styles.listItem}>
                       {service}
                     </li>
