@@ -30,9 +30,6 @@ const NavBarContact = () => {
           <BsFillCaretDownFill size={18} />
         </div>
       </div>
-      {/* <div className="navbar-button">
-        
-      </div> */}
       <div className="navbar-spacer-right"></div>
     </nav>
   );
