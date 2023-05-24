@@ -66,7 +66,7 @@ const styles = {
   `,
   badge: css`
     height: 100%;
-    width: 120px;
+    width: 135px;
     object-fit: contain;
   `,
   newsletterContainer: css`

@@ -18,12 +18,13 @@ export default NavBar;
 const styles = {
   NavBar: css`
     position: relative;
+    font-weight: bold;
   `,
   logo: css`
     z-index: 999;
     position: absolute;
     top: 0px;
-    left: 150px;
+    left: 250px;
     height: 65px;
     box-shadow: 0px -28px 3px 2px #ababab;
   `,

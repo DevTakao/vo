@@ -55,11 +55,11 @@ const styles = {
     filter: grayscale(100%) brightness(25%);
   `,
   footerLinksWrapper: css`
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
   `,
   footerBladeWrapper: css`
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
   `,
   termsAndCopyright: css`

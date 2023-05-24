@@ -78,6 +78,7 @@ const styles = {
     justify-content: center;
     gap: 5px;
     border-radius: 3px;
+    font-weight: normal;
 
     :hover {
       cursor: pointer;
@@ -93,6 +94,7 @@ const styles = {
     justify-content: center;
     gap: 5px;
     border-radius: 3px;
+    font-weight: normal;
 
     :hover {
       cursor: pointer;

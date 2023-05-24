@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    {/* Fonts */}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="preconnect"
