@@ -48,6 +48,7 @@ const styles = {
     gap: 10px;
 
     .navbar-button {
+      white-space: nowrap;
       flex: 1 1;
       display: flex;
       align-items: center;
@@ -95,7 +96,6 @@ const styles = {
     justify-content: center;
     gap: 5px;
     border-radius: 3px;
-    white-space: nowrap;
 
     :hover {
       cursor: pointer;
