@@ -7,6 +7,7 @@ import ChallengesSection from "./components/ChallengesSection";
 import HeroSection from "./components/HeroSection";
 import HighlightSection from "./components/HighlightSection";
 import withSlideInAnimation from "./hoc/withSlideInAnimation";
+import OverlayActions from "base/OverlayActions";
 
 const animatedSections = [
   AboutSection,
@@ -23,6 +24,7 @@ function App() {
         <Section key={index} />
       ))}
       <Footer />
+      <OverlayActions />
     </div>
   );
 }
