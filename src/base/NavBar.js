@@ -27,5 +27,9 @@ const styles = {
     left: 250px;
     height: 65px;
     box-shadow: 0px -28px 3px 2px #ababab;
+
+    @media (max-width: 1150px) {
+      left: 0;
+    }
   `,
 };

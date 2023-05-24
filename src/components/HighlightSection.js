@@ -81,14 +81,22 @@ const styles = {
 
     background: linear-gradient(113deg, #3ae7ab 0%, #2dc4ea 100%);
   `,
-  graphicSide: (show) => css`
+  graphicSide: css`
     min-width: 50%;
     z-index: 900;
     position: relative;
+
+    @media (max-width: 880px) {
+      display: none;
+    }
   `,
   contentSide: css`
     padding-right: 170px;
     color: #fff;
+
+    @media (max-width: 880px) {
+      padding: 0 30px 20px 30px;
+    }
   `,
   graphic: (show, isLongBg) => css`
     width: 100%;
@@ -167,5 +175,8 @@ const styles = {
   `,
   switch: css`
     margin: 15px 0px;
+    @media (max-width: 880px) {
+      display: none;
+    }
   `,
 };

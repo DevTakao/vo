@@ -1,8 +1,10 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 
-const VerticalRule = ({ length, thickness, color }) => {
-  return <div css={styles.VerticalRule(length, thickness, color)}></div>;
+const VerticalRule = ({ length, thickness, color, ...props }) => {
+  return (
+    <div css={styles.VerticalRule(length, thickness, color)} {...props}></div>
+  );
 };
 
 export default VerticalRule;

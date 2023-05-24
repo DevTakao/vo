@@ -10,27 +10,37 @@ const HeroTags = () => {
     <div css={styles.HeroTags}>
       <div className="tagItem">
         <span css={styles.bold}>Built for:</span>
-        <span>
+        <span css={styles.icon}>
           <MdDevicesOther size={65} />
         </span>
       </div>
-      <VerticalRule length="56px" thickness="3px" color="#fff" />
+      <VerticalRule
+        length="56px"
+        thickness="3px"
+        color="#fff"
+        css={styles.vRule}
+      />
       <div className="tagItem">
         <div css={styles.multiLine}>
           <span>Technologies: </span>
           <span css={styles.bold}>Wordpress</span>
         </div>
-        <span>
+        <span css={styles.icon}>
           <FaWordpress size={65} />
         </span>
       </div>
-      <VerticalRule length="56px" thickness="3px" color="#fff" />
+      <VerticalRule
+        length="56px"
+        thickness="3px"
+        color="#fff"
+        css={styles.vRule}
+      />
       <div className="tagItem">
         <div css={styles.multiLine}>
           <span>Industry: </span>
           <span css={styles.bold}>Ecommerce</span>
         </div>
-        <span>
+        <span css={styles.icon}>
           <RiShoppingCartLine size={65} />
         </span>
       </div>
@@ -49,11 +59,30 @@ const styles = {
     justify-content: space-between;
     font-size: 24px;
     gap: 0 25px;
+    flex-wrap: wrap;
+    @media (max-width: 1344px) {
+      width: 100%;
+    }
+
     .tagItem {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 0 20px;
+
+      @media (max-width: 1344px) {
+        font-size: 0.8rem;
+      }
+    }
+  `,
+  vRule: css`
+    @media (max-width: 1050px) {
+      display: none;
+    }
+  `,
+  icon: css`
+    @media (max-width: 1050px) {
+      transform: scale(0.5);
     }
   `,
   bold: css`

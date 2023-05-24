@@ -63,6 +63,7 @@ const styles = {
     align-items: center;
     justify-content: stretch;
     gap: 20px;
+    flex-wrap: wrap;
   `,
   badge: css`
     height: 100%;
@@ -83,6 +84,7 @@ const styles = {
       align-items: center;
       justify-content: space-between;
       gap: 20px;
+      flex-wrap: wrap;
     }
     .inputField {
       padding: 14px 20px;

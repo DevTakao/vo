@@ -37,6 +37,7 @@ const styles = {
     gap: 51px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
   `,
   contentSide: css`
     flex: 1 1;
@@ -46,5 +47,6 @@ const styles = {
   `,
   image: css`
     width: 100%;
+    min-width: 500px;
   `,
 };

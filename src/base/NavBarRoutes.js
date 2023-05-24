@@ -51,6 +51,7 @@ const styles = {
     }
     .navbar-spacer-left {
       flex: 20 1;
+      min-width: 220px;
     }
     .navbar-spacer-right {
       width: 250px;

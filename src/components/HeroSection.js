@@ -61,5 +61,11 @@ const styles = {
     left: 50%;
     top: -235px;
     transform: translateX(-50%);
+
+    @media (max-width: 860px) {
+      top: 0;
+      margin-bottom: 20px;
+      transform: translateX(-50%) scale(0.75);
+    }
   `,
 };

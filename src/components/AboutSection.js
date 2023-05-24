@@ -47,16 +47,23 @@ const styles = {
     gap: 200px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 1280px) {
+      width: 90%;
+    }
   `,
   textSide: css`
     width: 50%;
+    flex: 1 1;
   `,
   imageSide: css`
+    flex: 1 1;
+
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    right: 85px;
   `,
   textBody: css`
     font-size: 18px;
