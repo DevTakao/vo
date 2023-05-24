@@ -34,7 +34,7 @@ const OverlayActions = () => {
         <FaAngleUp color="#fff" size={15} />
       </div>
       <div css={styles.sendMessage}>
-        <TbMessages color="#fff" size={45} />
+        <TbMessages color="#fff" size={40} />
       </div>
     </div>
   );
@@ -43,6 +43,7 @@ const OverlayActions = () => {
 export default OverlayActions;
 const styles = {
   OverlayActions: (show) => css`
+    z-index: 1000;
     position: fixed;
     bottom: 20px;
     right: 15px;
